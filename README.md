@@ -4,7 +4,7 @@ A Flutter plugin to get channel for android and ios.
 
 ## How to use
 
-###1、add plugin in pubspec.yaml
+### 1、add plugin in pubspec.yaml
 
 ```
    channel_plugin:
@@ -12,9 +12,9 @@ A Flutter plugin to get channel for android and ios.
       url: https://github.com/June93/channel_plugin.git
 ```
 
-###2、On ios, it always returns "apple"
+### 2、On ios, it always returns "apple"
 
-###3、On android, you need to do this
+### 3、On android, you need to do this
 
 ```
 //to config in AndroidManifest.xml
@@ -35,7 +35,7 @@ productFlavors {
 }
 ```
 
-###3、get result
+### 4、get result
 
 ```
 String _channel = await ChannelPlugin.getChannel();
