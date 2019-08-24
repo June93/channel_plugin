@@ -13,7 +13,7 @@
   if ([@"getPlatformVersion" isEqualToString:call.method]) {
     result([@"iOS " stringByAppendingString:[[UIDevice currentDevice] systemVersion]]);
   } else if ([@"getChannel" isEqualToString:call.method]) {
-    result([@"apple"]);
+    result(@"apple");
   } else {
     result(FlutterMethodNotImplemented);
   }
